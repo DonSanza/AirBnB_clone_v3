@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 """ """
 from tests.test_models.test_base_model import test_basemodel
 from models.amenity import Amenity
@@ -11,6 +11,7 @@ import pycodestyle
 import inspect
 import unittest
 storage_t = getenv("HBNB_TYPE_STORAGE")
+
 
 class test_Amenity(test_basemodel):
     """ """
